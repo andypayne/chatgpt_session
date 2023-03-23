@@ -26,3 +26,12 @@ response = session.run_completion()
 print(f"A joke:\n{response}")
 ```
 
+
+## Tests
+
+One option to run tests:
+
+```
+python -m unittest -v tests/test_chatgpt_session.py
+```
+
